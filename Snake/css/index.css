@@ -1,0 +1,46 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background: rgb(247, 243, 243);
+  }
+
+  #game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#score-info {
+    font-size: 30px;
+    margin-left: 8px;
+}
+
+#best-score {
+  font-size: 30px;
+  margin-left: 8px;
+}
+#restart-button {
+    font-size: 27px;
+    padding: 5px 10px;
+    border: 2px solid rgb(234, 0, 255);
+    border-radius: 10px;
+}
+
+  canvas {
+    width: 403px;
+    height: 403px;
+    background-image: url('../img/ground1.jpg');
+    border: 1px solid rgb(234, 0, 255);
+  }
+  
+  .score {
+    display: flex;
+    align-items: center;
+  }
+
+  .text {
+    margin-left: 20px;
+    font-size: 20px;
+  }
